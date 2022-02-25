@@ -1,0 +1,35 @@
+#par{
+    text-align: center;
+}
+
+div{
+    width: 300px;
+    height: 300px;
+}
+
+.prvi{
+    background-color: #ff0000;
+}
+.prvi:hover{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+/* za svako desavanje unutar diva(promena boje , velicine) */
+
+.prvi p{
+    font-size: 50px;
+}
+/* gadja direktno p u class prvi */
+
+#profi{
+    background-color: #0000ff;
+}
+
+.drugi{
+    background-color: crimson;
+}
+
+#lazni{
+    background-color: orange;
+}

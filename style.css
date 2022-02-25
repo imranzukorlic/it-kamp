@@ -1,0 +1,22 @@
+h1{
+    color: aqua;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    background: url("./преузимање.jpg");
+    width: 300px;
+    height: 300px;
+    /* width: 100%;
+    height: auto; */
+}
+/* . i ime klase  */
+.naslov{
+    color: rgb(0, 57, 57);
+    text-decoration: underline;
+    text-align: center;
+}
+#id{
+    color: black;
+    font-weight: 100;
+    font-size: 60px;
+}
+/* boje preko HEX koda najcesce, a moze i rgb brojevi */

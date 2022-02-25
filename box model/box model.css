@@ -1,0 +1,28 @@
+body{
+    background-color: orange;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+
+    /* margin-top: 50px;
+    margin-left: 50px; */
+/* ili margin: i pises od top u smeru kazaljke na satu */
+    /* margin: pa prvi jr za gore i dole drugi za levo i desno; */
+    margin:100px auto; 
+    /* da ga centriramo koristimo ovo (auto je sredina tkd je prvi broj za odbijaje gore i dole */
+    border: 20px solid red;
+/* mora stil linije (solid...) prije boje (mozes vides stilove na w3school)*/
+/* moze border samo za jednu stranu ili vise */
+    padding-left: 20px;
+    padding-top: 50px;
+
+
+
+}
+h3{
+    font-size: 50px;
+    margin-bottom: 30px;
+}

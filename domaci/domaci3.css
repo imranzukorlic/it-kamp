@@ -1,0 +1,47 @@
+.card{
+    background-color: green;
+    width: 300px;
+    height: max-content;
+
+    margin: 120px auto;
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 15px;
+
+    border: 2px solid black;
+    /* transition: 1.5s; */
+}
+
+img{
+    height: 172px;
+    width: 100%;
+
+    border-top-left-radius: 30px;
+    border-top-right-radius: 15px;
+
+    border-bottom: 5px solid rgb(69, 69, 69);
+}
+.sadrzaj{
+    padding:  25px 20px;
+
+}
+.sadrzaj h1{
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.sadrzaj h2{
+    font-style: oblique;
+    color: rgb(33, 33, 61);
+}
+.sadrzaj p{
+    font-style: italic;
+    color: rgb(48, 48, 142);
+}
+.card:hover{
+    background-color: greenyellow;
+}
