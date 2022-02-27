@@ -1,0 +1,49 @@
+body{
+    background-color: blue;
+}
+
+.kartica{
+    background-color: black;
+    margin: 100px auto;
+    height: 500px;
+    width: 300px;
+    padding: 20px 15px ;
+
+    border: 2px solid white;
+}
+img{
+    margin: 0 50px;
+    height: 150px;
+    width: 200px;
+}
+.opis{
+    color: white;
+    text-align: center;
+}
+h1{
+    text-transform: uppercase;
+}
+p{
+    font-size: 20px;
+}
+button{
+    margin: 0 50px;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+    font-weight: 750;
+    border: 1px none white;
+}
+.kartica:hover{
+    background-color: rgb(196, 3, 131);
+    transition: .7s;
+}
+.kartica:hover>button{
+    background-color: rgb(236, 236, 97);
+    transition: 1.5s;
+    color: white;
+    font-weight: 900;
+    
+
+}

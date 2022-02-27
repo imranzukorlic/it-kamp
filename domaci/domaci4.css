@@ -32,7 +32,11 @@ body{
     border: 3px solid wheat;
 }
 a{
-    padding: 5px 190px;
+    margin: 5px 190px;
+    transition: 1s;
+    text-decoration: none;
+    padding: 2px 2px;
+
 }
 .slika{
     margin: 10px auto;
@@ -67,4 +71,10 @@ p{
 .nav:hover{
     background-color: firebrick;
     transition: 1s;
+}
+
+a:hover{
+    background-color: darkslateblue;
+    color: white;
+
 }
