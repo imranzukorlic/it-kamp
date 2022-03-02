@@ -2,12 +2,14 @@
 
 .kartica{
     background-color: rgb(56, 56, 245);
-    height: 550px;
+    height: 570px;
     width: 300px;
 
     margin: 100px auto;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+
+    border: 5px solid rgb(240, 75, 75);
 
 }
 img{
@@ -26,7 +28,7 @@ img{
 }
 .opis h3{
     text-align: right;
-    font-size: 30px;
+    font-size: 27px;
 }
 .a{
     font-size: 25px;
@@ -53,5 +55,5 @@ button{
     font-weight: 600;
     transition: .75s;
     color: white;
-    background-color:rgba(0, 0, 0, 0.288);
+    background-color: rgba(0, 0, 0, 0.288);
 }
