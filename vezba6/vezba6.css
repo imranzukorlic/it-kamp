@@ -1,4 +1,5 @@
 
+/* zvazica(*) je za pocekat da bi ugasili okolo margine */
 html,body 
  {
     padding:0;
@@ -30,5 +31,8 @@ span{
     color: white;
 }
 .desno-gore p{
+    text-align: right;
+}
+.desno-dole p{
     text-align: right;
 }
