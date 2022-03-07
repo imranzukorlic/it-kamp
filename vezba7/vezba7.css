@@ -60,5 +60,7 @@ p{
     font-size: 10px;
 }
 span{
-    font-size: 12em;
+    font-size: 2em;
+    /* rem zavisi od glavnog (html) a em od prethodnog (npr. nalazi se u divu) */
+    
 }

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+
+}
+.navbar{
+    background-color: rgb(0, 162, 255);
+    height: 10vh;
+    width: 100%;
+    position: sticky;
+    /* on ga pokupi usput i nosi ga sa sa sobom */
+    top: 0;
+    left: 0;
+    
+
+}
+.hero{
+    height: 30vh;
+    width: 100%;
+    background-color: blue;
+    margin-bottom: 2000px;
+}
+.footer{
+    background-color: cyan;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.relative{
+    position: relative;
+    width: 50%;
+    height: 20vh;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.apsolute{
+    position: absolute;
+    top: 80px;
+    right: 0%;
+    width:200px;
+    height: 100px;
+    background-color: aquamarine;
+}
