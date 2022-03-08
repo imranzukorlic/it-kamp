@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+}
+
+.tabla{
+    background-color: rgb(14, 165, 14);
+    margin: 200px auto;
+    height: 600px;
+    width: 30vw;
+    position: relative;
+}
+.a{
+    position: absolute;
+    background-color: rgb(0, 217, 255);
+    height: 50px;
+    width: 50px;
+    top: -25px;
+    left: -25px;
+    border-radius: 50%;
+
+}
+.b{
+    position: absolute;
+    background-color: rgb(229, 255, 0);
+    height: 50px;
+    width: 50px;
+    top: 275px;
+    left: -25px;
+    border-radius: 50%;
+
+}
+.c{
+    position: absolute;
+    background-color: rgb(216, 83, 83);
+    height: 50px;
+    width: 50px;
+    bottom: -25px;
+    left: -25px;
+    border-radius: 50%;
+}
+.d{
+    position: absolute;
+    background-color: rgb(235, 134, 134);
+    height: 50px;
+    width: 50px;
+    top: -25px;
+    right: -25px;
+    border-radius: 50%;
+}
+.e{
+    position: absolute;
+    background-color: rgb(4, 70, 26);
+    height: 50px;
+    width: 50px;
+    top: 275px;
+    right: -25px;
+    border-radius: 50%;
+}
+.f{
+    position: absolute;
+    background-color: rgb(6, 39, 109);
+    height: 50px;
+    width: 50px;
+    bottom: -25px;
+    right: -25px;
+    border-radius: 50%;
+
+}
+p{
+    padding-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.f p{
+    font-size: 10px;
+}
+h3{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+
+}
+#has{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    padding: 10px 25px;
+}
