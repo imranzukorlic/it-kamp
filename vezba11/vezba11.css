@@ -1,0 +1,27 @@
+.div{
+    height: 200px;
+    width: 1000px;
+
+    border: 2px solid rgba(255, 0, 0, 0.397);
+    /* ovaj a kanal je kao opasiti za slku */
+  
+}
+    /* background-color: aqua;
+    overflow: auto;
+
+h1{
+    font-size: 40px;
+} */
+img{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    float: right;
+    margin-left: 10px;
+    opacity: .7;
+    
+}
+p{
+    text-align: right;
+
+}
