@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    background-color: whitesmoke;
+    display: flex;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.naslov{
+    width: 25%;
+    height: 8vh;
+}
+.naslov h3{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.naslov span{
+    color: rgb(41, 74, 219);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.links{
+    height: 8vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.links a{
+    margin-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.links a:hover{
+    color: rgb(41, 74, 219);
+    text-decoration: underline;
+    transition: .3s;
+}
+
+.content{
+    margin-top: 8vh;
+    position: relative;
+}
+#prva{
+    height: 92vh;
+    width: 100%;
+
+}
+.welcome{
+    position: absolute;
+    top: 36vh;
+    left: 10%;
+    height: 20vh;
+}
+.welcome h2{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.welcome span{
+    color: rgb(41, 74, 219);
+}
+.welcome p{
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(63, 57, 57);
+}
+.button{
+    position: absolute;
+    display: inline;
+    top: 54vh;
+    left: 10%;
+    width: 50%;
+    height: 5vh;
+
+}
+#dugme1{
+    height: 6vh;
+    width: 24%;
+    border: 0 none;
+    border-radius: 6px;
+    background-color: rgb(41, 74, 219);
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+#dugme1:hover{
+    background-color: white;
+    color: rgb(41, 74, 219);
+    transition: .45s;
+}
+
+#dugme{
+    margin-left: 20px;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+#dugme:hover{
+    color: rgb(41, 74, 219);
+    transition: .4s;
+    text-decoration: underline;
+}
+
+
+
+
+.kartice{
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 120px;
+
+}
+.kartice div{
+    height: 35vh;
+    width: 20%;
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 2px 8px 18px rgb(24, 23, 23);
+}
+.kartice i{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(41, 74, 219);
+}
+.kartice h6{
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kartice p{
+    margin-top: 25px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kartice div:hover{
+    background-color: rgb(41, 74, 219);
+    color: white;
+    transition: .5s;
+
+}
+.kartice div:hover i{
+    color: white;
+    transition: .5s;
+}
+
+
+.team{
+    padding: 40px 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+}
+.rat{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    background-color: rgba(41, 74, 219, 0.39);
+    border-radius: 15px;
+}
+#team h2{
+    color: rgb(41, 74, 219);
+    font-size: 18px;
+}
+.pred{
+    margin-top: 20px;
+    height: 15vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pred h3{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.pred span{
+    color: rgb(41, 74, 219);
+}
+.pred p{
+    margin-top: 20px;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(32, 32, 32);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ljudi{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.ljudi div{
+    height: 60vh;
+    width: 20%;
+    background-color: white;
+    box-shadow: 2px 8px 18px rgb(24, 23, 23);
+
+
+}
+.ljudi img{
+    height: 45vh;
+    width: 100%;
+}
+.ljudi h4{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ljudi p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: slategrey;
+
+}
+
+
+
+
+
+
