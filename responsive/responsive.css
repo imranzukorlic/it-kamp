@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    
+}
+.respon{
+    min-height: 150px;
+    background-color: aqua;
+}
+
+@media only screen and (max-width:600px){
+    .respon{
+        background-color: red;
+    }
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item{
+    width: 75px;
+    height: 75px;
+    background-color: aquamarine;
+    margin: 15px;
+}
+@media only screen and (max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+    .item{
+        background-color: blanchedalmond;
+    }
+}
