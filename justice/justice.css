@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+}
+.nav{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 9vh;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.firma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 8vh;
+
+}
+.firma h3{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+.firma span{
+    color: #b49c73;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    height: 8vh;
+    margin-right: 11%;
+}
+.links a{
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-weight: 500;
+    font-size: 14px;
+    transition: .3s;
+}
+#black{
+    color: black;
+}
+.links a:hover{
+    color: black;
+}
+/* .drope{
+    display: flex;
+    flex-direction: column;
+     height: 22vh ; 
+    
+}
+.down{
+    position: absolute;
+    top: 8vh;
+    height: 14vh;
+    width: 10%;
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;
+    display: none; 
+}
+.drope:hover .down{
+    display: flex;
+    flex-direction: column;
+}
+#dw{
+    margin-top: 6px;
+} */
+
+
+
+.home{
+    position: relative;
+    /* background-image: url(https://th.bing.com/th/id/R.a845d4474db19472f30c153994de191f?rik=NtEfhzbixZ5klQ&riu=http%3a%2f%2fwheltoninsurance.com%2fassets%2fimg%2fwhelton_hero_banner_association_plans.jpg&ehk=UL896WFB8pNbq6FbFa5LSYUNTPu3RC7gnf2%2bvM9fxNw%3d&risl=&pid=ImgRaw&r=0); */
+    background-image: url(https://ipp.cl/wp-content/uploads/2020/01/Contador-General-scaled-e1582296937770.jpg);
+    height: 100vh;
+    width: 100%;
+}
+.naslov{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 20vh;
+    width: 30%;
+    right: 20%;
+    bottom: 50%;
+}
+.naslov h3{
+    font-weight: 400;
+    font-size: 57px;
+
+}
+.naslov span{
+    color: #b49c73;
+    font-weight: 700;
+}
+.prvi{
+    height: 15vh;
+    width: 85%;
+}
+
+.drugi{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.naslov p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    line-height: 35px;
+}
+.drugi a{
+    color: #b49c73;
+}
+.dugme{
+    margin-top: 16px;
+    height: 6vh;
+    width: 50%;
+    background-color: #b49c73;
+    border-radius: 30px;
+    text-align: center;
+    transition: .15s;
+}
+.dugme a{
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+.dugme:hover{
+    background-color: #b8a27c;
+}
+
+.practiceareas{
+    height: 160vh;
+    width: 100%;
+    background-color: #37373f;
+}
+.our{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    padding: 100px 153.600px;
+}
+.oa{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 50%;
+}
+.oa h3{
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.oa span{
+    color: #b49c73;
+    font-weight: 600;
+}
+.oa p{
+    margin-left: 50px;
+    font-size: 16px;
+    color: #b2b2b8;
+    line-height: 1.6;
+
+}
+#oa{
+    margin-top: 20px;
+}
+#oadugme{
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48.500px;
+    width: 140px;
+    background-color: #b49c73;
+    border-radius: 30px;
+}
+#oadugme a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 700;
+}
+.ob{
+    margin-left: 30px;
+    height: 60vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.torba{
+    
+    opacity: 0.5;
+    height:14vh;
+    width: 90%;
+    display: flex;
+    transition: .4s;
+    
+}
+#torba{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.torba i{
+    color: white;
+    font-size: 20px;
+}
+.torba p{
+    line-height: 1.5;
+    margin-left: 10px;
+    color: #b49c73;
+    font-size: 16px;
+
+}
+.torba span{
+    display: block;
+    color: #b2b2b8;
+
+}
+.ljudi{
+    opacity: 0.5;
+    height:14vh;
+    width: 90%;
+    display: flex;
+    transition: .4s;
+}
+#ljudi{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+.ljudi i{
+    color: white;
+    font-size: 20px;
+}
+.ljudi p{
+    line-height: 1.5;
+    margin-left: 10px;
+    color: #b49c73;
+    font-size: 16px;
+
+}
+.ljudi span{
+    display: block;
+    color: #b2b2b8;
+
+}
+.prica{
+    opacity: 0.5;
+    height:14vh;
+    width: 90%;
+    display: flex;
+    transition: .4s;
+}
+#prica{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.prica i{
+    color: white;
+    font-size: 20px;
+}
+.prica p{
+    line-height: 1.5;
+    margin-left: 10px;
+    color: #b49c73;
+    font-size: 16px;
+
+}
+.prica span{
+    display: block;
+    color: #b2b2b8;
+
+}
+.nisan{
+    opacity: 0.5;
+    height:14vh;
+    width: 90%;
+    display: flex;
+    transition: .4s;
+}
+#nisan{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.nisan i{
+    color: white;
+    font-size: 22px;
+}
+.nisan p{
+    line-height: 1.5;
+    margin-left: 10px;
+    color: #b49c73;
+    font-size: 16px;
+
+}
+.nisan span{
+    display: block;
+    color: #b2b2b8;
+}
+#dno{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #b49c73;
+
+}
+#dno i{
+    color: white;
+}
+.ob div:hover{
+    opacity: 1;
+}
+
