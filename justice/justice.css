@@ -145,7 +145,7 @@ body{
 }
 
 .practiceareas{
-    height: 160vh;
+    height: 80vh;
     width: 100%;
     background-color: #37373f;
 }
@@ -349,4 +349,151 @@ body{
 .ob div:hover{
     opacity: 1;
 }
+.years{
+    height: 90vh;
+    width: 100%;
+    background-color: #37373f;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.god{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 85%;
+}
+.god1{
+    margin-left: 95px;
+    padding: 0 15px;
+    padding-top: 30px;
+    height: 30vh;
+    width: 30%;
+}
+.god1 h3{
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+}
+.god1 span{
+
+    font-weight: 600;
+    color: #b49c73;
+}
+.god2 {
+    padding: 0 15px;
+    line-height: 1.6;
+    margin-left: 95px;
+    height: 30vh;
+    width: 20%;
+}
+.god2 h2{
+    font-weight: 300;
+    font-size: 88px;
+    color: #b49c73;
+}
+.god2 span{
+    color: white;
+}
+.god2 h3{
+    font-size: 16px;
+    color: white;
+}
+.god2 p{
+    color: #b2b2b8;
+    font-size: 16px;
+}
+.god3{
+    padding: 0 15px;
+    line-height: 1.6;
+    margin-left: 95px;
+    height: 30vh;
+    width: 20%;
+}
+.god3 h2{
+    font-weight: 300;
+    font-size: 88px;
+    color: #b49c73;
+}
+.god3 span{
+    color: white;
+}
+.god3 h3{
+    font-size: 16px;
+    color: white;
+}
+.god3 p{
+    color: #b2b2b8;
+    font-size: 16px;
+}
+.ina{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 85%;
+
+}
+.ina1{
+    margin-left: 95px;
+    padding: 0 15px;
+    height: 30vh;
+    width: 30%;
+    background-color: #37373f;
+}
+.ina2{
+    padding: 0 15px;
+    line-height: 1.6;
+    margin-left: 95px;
+    height: 30vh;
+    width: 20%;
+
+}
+.ina2 h2{
+    font-weight: 300;
+    font-size: 88px;
+    color: #b49c73;
+}
+.ina2 span{
+    color: white;
+}
+.ina2 h3{
+    font-size: 16px;
+    color: white;
+}
+.ina2 p{
+    color: #b2b2b8;
+    font-size: 16px;
+}
+.ina3{
+    padding: 0 15px;
+    line-height: 1.6;
+    margin-left: 95px;
+    height: 30vh;
+    width: 20%;
+}
+.ina3 h2{
+    font-weight: 300;
+    font-size: 88px;
+    color: #b49c73;
+}
+.ina3 span{
+    color: white;
+}
+.ina3 h3{
+    font-size: 16px;
+    color: white;
+}
+.ina3 p{
+    color: #b2b2b8;
+    font-size: 16px;
+}
+
+
 
